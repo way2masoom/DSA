@@ -1,6 +1,6 @@
 package L3_Operators;
 
-public class AssignmentOperator {
+public class ArithmeticOperator {
     public static void main(String[] args) {
         System.out.println("Assignment Operator");
 
