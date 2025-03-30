@@ -1,3 +1,4 @@
 .JavaDSA.iml
 .idea
-.out
+out/
+*.iml
