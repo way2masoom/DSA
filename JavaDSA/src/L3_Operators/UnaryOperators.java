@@ -12,7 +12,8 @@ public class UnaryOperators {
        //Increment Operator
        res1=++a;
         System.out.println("A ="+res1);
-       //Decrement Operator
+
+        //Decrement Operator
         res2=--b;
         System.out.println("B ="+res2);
 
