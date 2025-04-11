@@ -9,28 +9,27 @@ class PrimeNotPrime {
 
         System.out.print("Enter a Number to Check Prime or Not: ");
         int num = input.nextInt();
-        input.close(); // Always close the scanner to prevent resource leaks
-
-        // Handle edge cases
-        if (num <= 1) {
-            System.out.println("Number is NOT prime");
-            return;
-        }
-
-        boolean isPrime = true;
-
-        // Check divisibility from 2 to sqrt(num)
-        for (int i = 2; Math.sqrt(num)<= num; i++) { // we can also do i*i inste of math method
-            if (num % i == 0) {
-                isPrime = false;
-                break;
-            }
-        }
+        boolean isPrime = isPrime(num);
 
         if (isPrime) {
             System.out.println("Number is Prime");
         } else {
             System.out.println("Number is NOT prime");
         }
+    }
+    // Function to check prime number
+    public static boolean isPrime(int num){
+        // base case
+        if(num<=1){
+            return false;
+        }
+        int i = 2;
+        while (i < num) {
+            if (num % i == 0) {
+                return false;
+            }
+            i++;
+        }
+        return true;
     }
 }
