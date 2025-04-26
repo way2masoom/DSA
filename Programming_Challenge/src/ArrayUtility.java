@@ -11,7 +11,7 @@ public class ArrayUtility {
         int[] arr = new int[size];
         System.out.println("Please Enter the Number of Elements ");
         for (int i = 0; i < size; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
+            System.out.print("Enter Element NO " + (i + 1) + ": ");
             arr[i] = input.nextInt();
         }
         return arr;
