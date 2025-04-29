@@ -1,4 +1,4 @@
-class IsShortedArray {
+class IsSortedArray {
     public static void main(String[] args) {
         System.out.println("Welcome to Check Point of Array is shorted or Not");
 
@@ -10,9 +10,9 @@ class IsShortedArray {
 
         // Check Point is the array is shorted or not
         if(isInc || isDec){
-            System.out.println("Array is Shorted");
+            System.out.println("Array is Sorted");
         }else {
-            System.out.println("Array is not Shorted");
+            System.out.println("Array is not Sorted");
         }
     }
 
