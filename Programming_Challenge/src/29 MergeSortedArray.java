@@ -13,21 +13,27 @@ class MergeSortedArray {
         ArrayUtility.printArray(mergeArr);
     }
 
-    // Method to merge to shorted array
+    // Method to merge two sorted arrays into a single sorted array
     public static int[] mergeSortedArrays(int[] arr1, int[] arr2) {
-        int newSize = arr1.length + arr2.length;
-        int[] newArr = new int[newSize];
-        int i = 0, j = 0, k = 0;
+        int newSize = arr1.length + arr2.length; // Total size of merged array
+        int[] newArr = new int[newSize]; // Resultant array to store merged output
+
+        int i = 0, j = 0, k = 0; // i for arr1, j for arr2, k for newArr
+
+        // Loop until one of the arrays is completely traversed
         while (i < arr1.length || j < arr2.length) {
-            if (j == arr2.length || (i < arr1.length && arr1[i] < arr2[j])){
-                newArr[k] = arr1[i];
+            // If arr2 is exhausted OR arr1 element is smaller -> take from arr1
+            if (j == arr2.length || (i < arr1.length && arr1[i] < arr2[j])) {
+                newArr[k] = arr1[i]; // Copy from arr1
                 i++;
             } else {
-                newArr[k] = arr2[j];
+                newArr[k] = arr2[j]; // Copy from arr2
                 j++;
             }
-            k++;
+            k++; // Move to next position in newArr
         }
-        return newArr;
+
+        return newArr; // Return the final merged sorted array
     }
+
 }
