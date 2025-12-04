@@ -6,7 +6,7 @@ public class HelloWorld {
 
         System.out.println();
         System.out.print("Java is fun");
-        System.out.printf("Java is Fun");
+        System.out.println("Java is Fun");
 
         System.out.println();
 
