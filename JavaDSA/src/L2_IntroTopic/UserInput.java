@@ -10,13 +10,13 @@ public class UserInput {
         // User Input
         Scanner input=new Scanner(System.in);
 
-        System.out.print("Enter your name : ");
+        System.out.print("Enter your name :");
         String name=input.nextLine();
 
-        System.out.print("Enter your age : ");
+        System.out.print("Enter your age :");
         int age=input.nextInt();
 
-        System.out.print("Enter your Weight : ");
+        System.out.print("Enter your weight : ");
         float weight=input.nextFloat();
 
         System.out.println("\nDisplaying the Details of User");
