@@ -14,5 +14,18 @@ public class VariableDemo {
         System.out.println("Speed is = "+speed);
         speed =50;
         System.out.println("Speed is = "+speed);
+
+        int yourNumber=300;
+        System.out.println(yourNumber);
+
+        float number2=55;
+        System.out.println(number2);
+
+        double bigNumber=489.99999;
+        System.out.println(bigNumber);
+
+
+        String msg="Learning Java";
+        System.out.println(msg);
     }
 }
