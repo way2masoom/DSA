@@ -5,22 +5,23 @@ class Swap2Numbers {
         System.out.println("Swap of Two Numbers");
         Scanner input=new Scanner(System.in);
 
-        System.out.print("Enter First Number :");
+        System.out.print("Enter First Number A: ");
         int num1=input.nextInt();
 
-        System.out.print("Enter Second Number :");
+        System.out.print("Enter the second Number B : ");
         int num2=input.nextInt();
 
-        System.out.println("Number Before Swap");
-        System.out.println("Num1 = "+num1+ " Num2 = "+num2);
-        System.out.println();
+        System.out.println("Number Before swap");
+        System.out.println("Num1 A= "+num1 +" Num2 B= "+num2 +"\n");
 
-        // Logic to swap two numbers
-        int temp=num1;
-        num1=num2;
+        // Swap logic
+        int temp=num1; // Storing the num1 value in 'temp'
+        num1=num2;      //
         num2=temp;
 
-        System.out.println("Number After Swap");
-        System.out.println("Num1 = "+num1+ " Num2 = "+num2);
+        System.out.println("Number After swap");
+        System.out.println("Num1 A= "+num1 +" Num2 B= "+num2);
+
+
     }
 }
