@@ -6,33 +6,33 @@ class PerimeterOfTriangle {
         Scanner input=new Scanner(System.in);
         // Formula of Perimeter of Rectangle P=A+B+C+D
 
-        System.out.println("Enter the Four Size of Rectangle ");
+        System.out.println("Enter the Four Size of Rectangle in CMS");
 
         System.out.print("Side A = ");
-        int a=input.nextInt();
+        double a=input.nextDouble();
 
         System.out.print("Side B = ");
-        int b=input.nextInt();
+        double b=input.nextDouble();
 
         System.out.print("Side C = ");
-        int c=input.nextInt();
+        double c=input.nextDouble();
 
         System.out.print("Side D = ");
-        int d=input.nextInt();
+        double d=input.nextDouble();
 
-        int perimeter=a+b+c+d;
-        System.out.println("Perimeter of rectangle is = "+perimeter +"\n");
+        double perimeter=a+b+c+d;
+        System.out.println("Perimeter of rectangle is = "+perimeter +" cms \n");
 
         System.out.println("Another Approach");
         // Another Approach
-        System.out.print("Enter the Length of rectangle : ");
-        int length=input.nextInt();
-        System.out.print("Enter the Breath of rectangle : ");
-        int breath=input.nextInt();
+        System.out.print("Enter the Length of rectangle in CM: ");
+        double length=input.nextDouble();
+        System.out.print("Enter the Breath of rectangle CM: ");
+        double breath=input.nextDouble();
 
         // Logic for it
-        int pere= 2*(length+breath);
-        System.out.println("Perimeter of the rectangle = " + perimeter);
+        double pere= 2*(length+breath);
+        System.out.println("Perimeter of the rectangle = " + perimeter +" CMS");
 
 
 
