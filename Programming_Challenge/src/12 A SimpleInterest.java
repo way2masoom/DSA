@@ -19,7 +19,14 @@ class SimpleInterest {
         // Logic for the Simple Interest
         double SI=(P*T*R)/100;
 
-        System.out.println("The Simple interest SI = "+SI);
+        // Total Amount = Principal + SI
+        double TotalAmount = P + SI; // SI+ Principal Amount
+
+        // Displaying Results
+        System.out.println("\n----- Results -----");
+        System.out.printf("Simple Interest (SI) = ₹%.2f\n", SI);
+        System.out.printf("Total Amount = ₹%.2f\n", TotalAmount);
+
 
     }
 }
