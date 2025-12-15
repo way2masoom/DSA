@@ -9,9 +9,9 @@ class EvenOddBitwise {
         int num=input.nextInt();
 
         if((num & 1)==1){
-            System.out.println("Odd Number");
+            System.out.println(num+ " is Odd Number");
         }else {
-            System.out.println("Even number");
+            System.out.println(num+" is Even number");
         }
     }
 }
