@@ -6,10 +6,10 @@ class IterativeDemo {
 
         // Printing Msg 20 times using LOOP
         int i=0;
-        int n=20;
-        while(i<=n){
-            System.out.println(" I love Java");
-            i+=1;
+        int n=20; // Initialization
+        while(i<=n){ // condition
+            System.out.println(" I love Java"); // Actual Work
+            i+=1; // Updating the condition
         }
     }
 }
