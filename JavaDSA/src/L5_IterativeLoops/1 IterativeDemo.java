@@ -5,9 +5,11 @@ class IterativeDemo {
         System.out.println("Iterative Demo | Loops");
 
         // Printing Msg 20 times using LOOP
+        int i=0;
         int n=20;
-        for (int i=0;i<n;i++){
-            System.out.println("I love Java");
+        while(i<=n){
+            System.out.println(" I love Java");
+            i+=1;
         }
     }
 }
