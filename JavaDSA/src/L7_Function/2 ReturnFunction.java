@@ -6,16 +6,16 @@ class ReturnFunction {
     public static void main(String[] args) {
         greet();
 
-        int first=readNumber();
-        int second=readNumber();
+        int num1=readNumber();
+        int num2=readNumber();
 
-        int sum=first+second;
+        int sum=num1+num2;
         System.out.println("Sum of Number is = "+sum);
     }
 
     // great Function
     public static void  greet(){
-        System.out.println("Welcome to Calculator");
+        System.out.println("Welcome to Calculator \n");
     }
 
     // Taking Input from user
