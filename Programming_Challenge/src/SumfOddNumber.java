@@ -26,5 +26,14 @@ class SumOfOddNumber {
         }
         return sum;
     }
-
+    // Another Logic without IF
+    public static int oddSum(int num) {
+        int i=1;        // Start from first odd number
+        int sum=0;
+        while (i<num){
+            sum=sum+i;
+            i+=2;        // Move to next odd number
+        }
+        return sum;
+    }
 }
