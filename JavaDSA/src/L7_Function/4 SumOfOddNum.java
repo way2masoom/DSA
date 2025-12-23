@@ -14,13 +14,13 @@ class SumOfOddNum {
         System.out.println("Sum of Odd number  till "+num + " is "+sum);
     }
 
-    // Sum of Odd NUmber
+    // Sum of Odd Number
     public static int oddSum(int num){
-        int i=0;
+        int i=1;        // Start from first odd number
         int sum=0;
         while (i<num){
             sum=sum+i;
-            i+=2;
+            i+=2;        // Move to next odd number
         }
         return sum;
     }
