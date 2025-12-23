@@ -27,14 +27,4 @@ class SumOfOddNumber {
         return sum;
     }
 
-    // Another Logic without IF
-    public static int sumOfOddNumber2(int num) {
-        int i=0;
-        int sum=0;
-        while (i<=num){
-            sum+=i;
-            i+=2;
-        }
-        return sum;
-    }
 }
