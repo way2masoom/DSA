@@ -1,4 +1,4 @@
-package L8_Array;
+package L8_Array.ProgrammingChallanges;
 
 import java.util.Scanner;
 
