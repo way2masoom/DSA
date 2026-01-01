@@ -1,6 +1,6 @@
 package L8_Array.ProgrammingChallanges;
 
-public class ArraySumAverage {
+class ArraySumAverage {
     public static void main(String[] args) {
         int[] numArray=ArrayUtility.inputArray();
 
@@ -8,7 +8,7 @@ public class ArraySumAverage {
         long sum=calculateSum(numArray);
 
         // calling Average of array
-        int average=calculateAverage(numArray);
+        double average=calculateAverage(numArray);
 
         // Displaying results
         System.out.println("Sum of array elements = " + sum);
@@ -27,13 +27,13 @@ public class ArraySumAverage {
     }
 
     // Method for Average Array
-    public static int calculateAverage(int[] numArray) {
+    public static double calculateAverage(int[] numArray) {
         // Calling the sum array method
-        long sum = calculateSum(numArray);
+        double sum = calculateSum(numArray);
 
-        int length = numArray.length; // Number of elements
+        double length = numArray.length; // Number of elements
 
-        return (int)(sum/length);
+        return sum/length;
     }
 }
 
