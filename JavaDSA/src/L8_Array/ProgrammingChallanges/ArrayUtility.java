@@ -3,7 +3,7 @@ package L8_Array.ProgrammingChallanges;
 import java.util.Scanner;
 
 public class ArrayUtility {
-    public static void main(String[] args) {
+    public static int[] inputArray() {
         Scanner input=new Scanner(System.in);
 
         // Asking user for number of elements
@@ -20,5 +20,6 @@ public class ArrayUtility {
             nums[i] =input.nextInt();
             i++;
         }
+        return nums;
     }
 }
