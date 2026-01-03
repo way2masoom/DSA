@@ -22,4 +22,15 @@ public class ArrayUtility {
         }
         return nums;
     }
+
+    // Method to Display Array Elements
+    public static void printArray(int[] numArray){
+        System.out.print("Array Elements : ");
+        int i=0;
+        while (i<numArray.length){
+            System.out.print(numArray[i]+" ");
+            i++;
+        }
+        System.out.println();
+    }
 }
