@@ -24,6 +24,7 @@ class ReverseArray {
     // Method to Reverse Array
     public static void ReverseArr(int[] arr) {
         int i = 0;
+        // Loop runs till middle of the array
         while (i < arr.length/2) {
             // Store current element in temporary variable
             int temp = arr[i];
